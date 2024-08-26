@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Material You customization -->
+        <item name="colorPrimary">@color/material_dynamic_primary90</item>
+        <item name="colorPrimaryContainer">@color/material_dynamic_primary80</item>
+        <item name="colorOnPrimary">@color/material_dynamic_primary70</item>
+        <item name="colorSecondary">@color/material_dynamic_secondary90</item>
+        <item name="colorSecondaryContainer">@color/material_dynamic_secondary80</item>
+        <item name="colorOnSecondary">@color/material_dynamic_secondary70</item>
+        <!-- Other Material You attributes -->
+        <item name="android:windowSplashScreenBackground">@color/white</item>
+        <!-- Customize other attributes -->
+        <item name="android:background">@color/background</item>
+        <item name="android:statusBarColor">@color/background</item>
+    </style>
+
+    <style name="button" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="textView" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="scoreButton" parent="Widget.Material3.Button.ElevatedButton">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+</resources>

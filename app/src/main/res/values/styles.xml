@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Custom Theme customization -->
+        <item name="colorPrimary">@color/md_theme_inversePrimary</item>
+        <item name="colorPrimaryContainer">@color/md_theme_primaryFixed</item>
+        <item name="colorOnPrimary">@color/md_theme_onSurface_highContrast</item>
+        <item name="colorSecondary">@color/md_theme_secondary</item>
+        <item name="colorSecondaryContainer">@color/md_theme_onSecondaryFixedVariant</item>
+        <item name="colorOnSecondary">@color/md_theme_onSurface_highContrast</item>
+        <!-- Customize other attributes -->
+        <item name="android:background">@color/background</item>
+        <item name="statusBarBackground">@color/background</item>
+    </style>
+
+    <style name="button" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="textView" parent="AppTheme">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/text</item>
+    </style>
+
+    <style name="scoreButton" parent="AppTheme">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">48dp</item>
+        <item name="android:textColor">@color/text</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:background">@drawable/circle</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:elevation">5dp</item>
+        <item name="android:padding">0dp</item>
+    </style>
+</resources>

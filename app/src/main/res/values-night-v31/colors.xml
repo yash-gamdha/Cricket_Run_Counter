@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!--  Project Colors  -->
+    <color name="background">@color/material_dynamic_neutral10</color>
+    <color name="text">@color/material_dynamic_primary80</color>
+    <color name="hint">@color/material_dynamic_primary90</color>
+    <color name="container">@color/material_dynamic_secondary20</color>
+    <color name="stroke">@color/material_dynamic_primary50</color>
+    <color name="transparent">@android:color/transparent</color>
+</resources>

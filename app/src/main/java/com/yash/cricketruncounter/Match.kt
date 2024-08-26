@@ -162,6 +162,7 @@ class Match : AppCompatActivity() {
         }
         updateOvers()
         checkWickets(wickets[inning])
+        if (isSecondInning) updateRemainingRuns(0)
         if (checkOvers(totalOvers[inning])) return
     }
 
